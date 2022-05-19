@@ -119,7 +119,7 @@ screen = pygame.display.set_mode(size)  # 게임 해상도 설정
 pygame.display.set_caption("Room Escape")  # 게임 상단바 이름
 
 clock = pygame.time.Clock()  # 게임 프레임 단위 설정
-background_color = (255, 255, 255)  # background용 color
+background_color = (255, 255, 255)  # background용 color (black)
 screen.fill(background_color)
 
 oncebg = pygame.image.load("oncebg.png")          # 맨 처음 어두운 화면
