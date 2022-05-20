@@ -186,5 +186,5 @@ while True:
                 exec(open("python_racer.py", 'r', encoding="UTF-8").read())  # Q 누를시 pyracer 실행
             if event.key == K_ESCAPE:
                 pygame.quit()  # esc 입력시 게임 종료
-    print(control)
+    #이찬이 프린트 지움
 pygame.quit()
