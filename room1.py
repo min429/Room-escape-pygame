@@ -187,4 +187,5 @@ while True:
             if event.key == K_ESCAPE:
                 pygame.quit()  # esc 입력시 게임 종료
     #이찬이 프린트 지움
+    #이승민 추가 진!!!!!!!!!!!!!!!!!
 pygame.quit()
